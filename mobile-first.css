@@ -1,0 +1,151 @@
+body {
+    margin: 0px;
+    padding: 0px;    
+}
+
+/* On screens that are 480px wide or less */
+@media screen and (max-width: 480px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navigation {
+        height: 80px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #2b2f36;
+    }
+
+    #news-banner {
+        height: 54px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #55bef3;
+    }
+
+    #main-title {
+        height: 637px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #0075ff;
+    }
+
+    #featured {
+        height: 202px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #eff3f4;
+    }
+
+    #why-presentation {
+        height: 909px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #eff3f4;
+    }
+
+    #visual-drag-drop {
+        height: 713px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #ffffff;
+    }
+
+    #animation {
+        height: 703px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #ffffff;
+    }
+
+    #library {
+        height: 654px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #323842;
+    }
+
+    #kristian {
+        height: 630px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #eff3f4;
+    }
+
+    #publish-domain {
+        height: 678px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #ffffff;
+    }
+
+    #export-code {
+        height: 683px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #ffffff;
+    }
+
+    #showcase {
+        height: 1895px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #323842;
+    }
+
+    #features {
+        height: 2573px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #ffffff;
+    }
+
+    #register-now {
+        height: 365px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #34435c;
+    }
+
+    #footer {
+        height: 561px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #2b2f36;
+    }
+
+    #copyright {
+        height: 40px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #242424;
+    }
+  }
+  
+  /* On screens that are 768px wide or less */
+@media screen and (max-width: 768px) {
+
+}
+
+  /* On screens that are 1600px wide or less */
+  @media screen and (max-width: 1600px) {
+
+}
+  
