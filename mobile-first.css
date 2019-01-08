@@ -261,6 +261,14 @@ text-decoration:none;
         margin-right: auto;
         margin-left: auto;
         background-color: #323842;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #library img {
+        width: 90%;
     }
 
     #kristian {
