@@ -189,6 +189,32 @@ text-decoration:none;
         align-items: center;
     }
 
+    #why-presentation p{
+        color: #36383d;
+    }
+
+    #why-presentation img {
+        width: 55%;
+    }
+
+    .designbrowser{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .deliverfaster{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     #visual-drag-drop {
         height: 713px;
         width: 100%;
