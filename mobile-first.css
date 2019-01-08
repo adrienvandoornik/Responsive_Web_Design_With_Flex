@@ -221,6 +221,18 @@ text-decoration:none;
         margin-right: auto;
         margin-left: auto;
         background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #visual-drag-drop img {
+        width: 90%;
+    }
+
+    #visual-drag-drop p{
+        color: #36383d;
     }
 
     #animation {
@@ -229,6 +241,18 @@ text-decoration:none;
         margin-right: auto;
         margin-left: auto;
         background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #animation img {
+        width: 90%;
+    }
+
+    #animation p{
+        color: #36383d;
     }
 
     #library {
