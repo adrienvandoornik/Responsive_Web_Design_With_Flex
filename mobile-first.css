@@ -8,44 +8,55 @@ text-decoration:none;
 } 
 
 .bouton {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 4px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-    width: 90%;
-  }
+background-color: #4CAF50; /* Green */
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+border-radius: 4px;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+width: 90%;
+}
   
-  .boutontransparent {
-    background-color: transparent;
-    color: #ffffff;
-    border: 1px solid #e7e7e7;
-  }
+.boutontransparent {
+background-color: transparent;
+color: #ffffff;
+border: 1px solid #e7e7e7;
+}
   
-  .boutontransparent:hover {
-    background-color: white;
-    color: #0075ff;
-    opacity: 1; 
-    }
+.boutontransparent:hover {
+background-color: white;
+color: #0075ff;
+opacity: 1; 
+}
 
-  .boutonblanc {
-    background-color: white;
-    color: #0075ff;
-    border: 1px solid #e7e7e7;
-  }
+.boutonblanc {
+background-color: white;
+color: #0075ff;
+border: 1px solid #e7e7e7;
+}
   
-  .boutonblanc:hover {
-    background-color: #e7e7e7;
-    opacity: 0.7; 
-    }
+.boutonblanc:hover {
+background-color: #e7e7e7;
+opacity: 0.7; 
+}
+
+.boutonbleu {
+background-color: #06a1f1;
+color: #ffffff;
+width: 50%;
+}
+      
+.boutonbleu:hover {
+background-color: #06a1f1;
+opacity: 0.7; 
+}
 
 /* On screens that are 480px wide or less */
 @media screen and (max-width: 480px) {
@@ -119,6 +130,42 @@ text-decoration:none;
         line-height: 1.2;
         text-align: center;
         color: #36383d;
+    }
+
+    h3 {
+        font-family: Montserrat,Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 700;
+        font-size: 0.8rem;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    h4 {
+        font-family: Montserrat,Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 600;
+        font-size: 0.6rem;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    h5 {
+        font-family: Montserrat,Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 600;
+        font-size: 0.9rem;
+        line-height: 1.2;
+        color: #b3ae8f;
+    }
+
+    h6 {
+        font-family: Montserrat,Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 300;
+        font-size: 0.9rem;
+        line-height: 1.2;
+        color: #b3ae8f;
     }
 
     p {
@@ -271,12 +318,34 @@ text-decoration:none;
         width: 90%;
     }
 
+    #library p {
+        color: #b9bcc4;
+    }
+
     #kristian {
         height: 630px;
         width: 100%;
         margin-right: auto;
         margin-left: auto;
         background-color: #eff3f4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #kristian h1 {
+        color: #36383d;
+        text-align: center;
+    }
+
+    #kristian p {
+        color: #36383d;
+    }
+
+    #kristian img {
+        width: 25%;
+        padding: 20px;
     }
 
     #publish-domain {
@@ -285,6 +354,23 @@ text-decoration:none;
         margin-right: auto;
         margin-left: auto;
         background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #publish-domain h1 {
+        color: #36383d;
+        text-align: center;
+    }
+
+    #publish-domain p {
+        color: #36383d;
+    }
+
+    #publish-domain img {
+        width: 70%;
     }
 
     #export-code {
@@ -293,6 +379,23 @@ text-decoration:none;
         margin-right: auto;
         margin-left: auto;
         background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #export-code h1 {
+        color: #36383d;
+        text-align: center;
+    }
+
+    #export-code p {
+        color: #36383d;
+    }
+
+    #export-code img {
+        width: 90%;
     }
 
     #showcase {
@@ -301,6 +404,18 @@ text-decoration:none;
         margin-right: auto;
         margin-left: auto;
         background-color: #323842;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #showcase img {
+        width: 90%;
+    }
+
+    #showcase p {
+        color: #b9bcc4;
     }
 
     #features {
@@ -309,6 +424,22 @@ text-decoration:none;
         margin-right: auto;
         margin-left: auto;
         background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #features h1 {
+        color: #36383d;
+    }
+
+    #features p {
+        color: #36383d;
+    }
+
+    #features img {
+        width: 15%;
     }
 
     #register-now {
@@ -317,6 +448,14 @@ text-decoration:none;
         margin-right: auto;
         margin-left: auto;
         background-color: #34435c;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #register-now p {
+        color: #b9bcc4;
     }
 
     #footer {
@@ -325,6 +464,10 @@ text-decoration:none;
         margin-right: auto;
         margin-left: auto;
         background-color: #2b2f36;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 
     #copyright {
@@ -332,9 +475,18 @@ text-decoration:none;
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-        background-color: #242424;
+        background-color:#242424;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-  }
+
+    #copyright h4 {
+        color: #767676;
+        text-align: center;
+    }
+}
   
   /* On screens that are 768px wide or less */
 @media screen and (max-width: 768px) {
